@@ -19,7 +19,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://vehicle-web-client.onrender.com",
     credentials: true,
   }),
 );
